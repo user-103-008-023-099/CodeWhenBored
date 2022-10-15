@@ -1,0 +1,23 @@
+//program to print all the ipv4 addresses//
+
+//program written in C//
+
+//written on Oct 15 22 22 55; @i.am.adonis.peo//
+
+#include<stdio.h>
+int main()
+{
+  int i, j, k, l, n;
+  n=255;
+  for(i=0; i<=n; i++)
+  {
+    for(j=0; j<=n; j++)
+    {
+      for(k=0; k<=n; k++)
+      {
+        for(l=0; l<=n; l++)
+        printf("%d.%d.%d.%d \n", i, j, k, l);
+      }
+    }
+  }
+}  
