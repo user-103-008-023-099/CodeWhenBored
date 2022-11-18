@@ -1,0 +1,3 @@
+# CodeWhenBored
+
+Set of programming ideas to make life much easier...
